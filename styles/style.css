@@ -10,10 +10,12 @@
   background-color: #7c3bb7;
 }
 
+/* Navigation */
 .navbar {
   height: 10vh;
 }
 
+/* Index Page */
 .banner {
   height: 90vh;
 }
@@ -22,23 +24,16 @@
   transform: translateY(70px);
 }
 
-.servis,
-.savjeti,
-.galerija,
-.onama {
+.mainSectionContainer {
   height: 80vh;
+}
+
+.secondSectionContainer {
+  height: 50vh;
 }
 
 .servisSection {
   height: 50vh;
-}
-
-.servisImg {
-  padding-top: 150px;
-}
-
-.servisPad {
-  transform: translateY(-70px);
 }
 
 a {
@@ -81,14 +76,6 @@ ul li {
   margin: 50px 100px;
 }
 
-/* O nama */
-.onamaSection,
-.galerijaSection,
-.savjetiSection,
-.savjetiDetaljnijeSection {
-  height: 50vh;
-}
-
 .kontaktPad {
   height: 80vh;
 }
@@ -112,4 +99,75 @@ ul li {
 .card {
   width: 45vw;
   margin: 0 auto;
+}
+
+/* Mobile Code */
+@media screen and (max-width: 768px) {
+  .colMar {
+    margin: 10px 0px;
+  }
+
+  .phoneImage {
+    width: 100%;
+  }
+
+  .kontaktOff {
+    transform: translateY(40px);
+  }
+
+  .onamaImage {
+    width: 100%;
+  }
+
+  .secondSectionContainer {
+    height: 25vh;
+  }
+
+  .galerijaOff {
+    width: 100%;
+    transform: translateY(-25px);
+  }
+
+  .servisImage {
+    width: 100%;
+    transform: translateY(-20px);
+  }
+
+  .savjetiOff {
+    width: 100%;
+    transform: translateY(-15px);
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .savjetiDetaljnijeOff {
+    width: 100%;
+    transform: translateY(-30px);
+  }
+
+  .imagePlaceholder {
+    width: 100%;
+  }
+
+  .bannerImage {
+    width: 100%;
+  }
+
+  .servisImg {
+    width: 100%;
+  }
+
+  .savjetiPad {
+    width: 100%;
+  }
+
+  .galerijaPad {
+    width: 100%;
+  }
+
+  .onamaPad {
+    width: 100%;
+  }
 }
