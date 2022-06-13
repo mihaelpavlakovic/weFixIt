@@ -108,3 +108,8 @@ ul li {
 .savjetiDetaljnijeOff {
   transform: translateY(-75px);
 }
+
+.card {
+  width: 45vw;
+  margin: 0 auto;
+}
