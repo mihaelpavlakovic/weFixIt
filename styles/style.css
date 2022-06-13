@@ -1,0 +1,19 @@
+.active {
+  border-bottom: 3px solid #7c3bb7;
+}
+
+.bg-main {
+  background-color: #f1f4fd;
+}
+
+.btn-main {
+  background-color: #7c3bb7;
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.banner {
+  height: 90vh;
+}
