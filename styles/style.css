@@ -17,3 +17,94 @@
 .banner {
   height: 90vh;
 }
+
+.bannerPad {
+  transform: translateY(70px);
+}
+
+.servis,
+.savjeti,
+.galerija,
+.onama {
+  height: 80vh;
+}
+
+.servisSection {
+  height: 50vh;
+}
+
+.servisImg {
+  padding-top: 150px;
+}
+
+.servisPad {
+  transform: translateY(-70px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  background-color: #9a49e5;
+}
+
+.savjetiPad {
+  transform: translateY(50px);
+}
+
+.galerijaPad {
+  transform: translateY(30px);
+}
+
+.onamaPad {
+  transform: translateY(35px);
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.colWidth {
+  width: 70vw;
+}
+
+.colMar {
+  margin: 50px 100px;
+}
+
+/* O nama */
+.onamaSection,
+.galerijaSection,
+.savjetiSection,
+.savjetiDetaljnijeSection {
+  height: 50vh;
+}
+
+.kontaktPad {
+  height: 80vh;
+}
+
+.kontaktOff {
+  transform: translateY(-40px);
+}
+
+.galerijaOff {
+  transform: translateY(-85px);
+}
+
+.savjetiOff {
+  transform: translateY(-30px);
+}
+
+.savjetiDetaljnijeOff {
+  transform: translateY(-75px);
+}
