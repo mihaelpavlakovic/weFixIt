@@ -2,6 +2,14 @@
   border-bottom: 3px solid #7c3bb7;
 }
 
+nav {
+  z-index: 2;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
 .bg-main {
   background-color: #f1f4fd;
 }
