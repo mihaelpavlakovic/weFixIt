@@ -20,10 +20,6 @@
   height: 90vh;
 }
 
-.bannerPad {
-  transform: translateY(70px);
-}
-
 .mainSectionContainer {
   height: 80vh;
 }
@@ -77,7 +73,7 @@ ul li {
 }
 
 .kontaktPad {
-  height: 80vh;
+  height: 100%;
 }
 
 .kontaktOff {
@@ -101,18 +97,26 @@ ul li {
   margin: 0 auto;
 }
 
+.bannerImage {
+  transform: translateY(70px);
+}
+
 /* Mobile Code */
 @media screen and (max-width: 768px) {
   .colMar {
-    margin: 10px 0px;
+    margin: 20px 15px;
+  }
+
+  .colWidth {
+    width: 100%;
   }
 
   .phoneImage {
     width: 100%;
   }
 
-  .kontaktOff {
-    transform: translateY(40px);
+  .kontaktPad {
+    height: 100%;
   }
 
   .onamaImage {
@@ -153,10 +157,12 @@ ul li {
 
   .bannerImage {
     width: 100%;
+    transform: translateY(20px);
   }
 
   .servisImg {
     width: 100%;
+    transform: translateY(40px);
   }
 
   .savjetiPad {
@@ -168,6 +174,16 @@ ul li {
   }
 
   .onamaPad {
+    width: 100%;
+  }
+
+  .banner {
+    height: 100%;
+    width: 100%;
+  }
+
+  .mainSectionContainer {
+    height: 100%;
     width: 100%;
   }
 }
