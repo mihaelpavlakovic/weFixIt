@@ -45,7 +45,7 @@ a.navbar-brand {
 }
 
 .mainSectionContainer {
-  height: 80vh;
+  height: 100%;
 }
 
 .secondSectionContainer {
@@ -54,6 +54,10 @@ a.navbar-brand {
 
 .servisSection {
   height: 50vh;
+}
+
+.servisImg {
+  transform: translateY(80px);
 }
 
 a {
